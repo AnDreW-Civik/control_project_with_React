@@ -26,7 +26,7 @@ liked.forEach((item) =>
         // let current = +productCount[i];
         // let next = current + 1;
         // productCount.textContent = next;
-      // });
-    }
+      }
+    
   })
 );
