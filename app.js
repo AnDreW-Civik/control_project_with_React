@@ -22,11 +22,15 @@ liked.forEach((item) =>
       item.classList.add("togled");
       // productCount.textContent = +productCount.textContent + 1;
       // productCount.forEach(item, function () {
-        // console.log(productCount.item);
-        // let current = +productCount[i];
-        // let next = current + 1;
-        // productCount.textContent = next;
-      }
-    
+      // console.log(productCount.item);
+      // let current = +productCount[i];
+      // let next = current + 1;
+      // productCount.textContent = next;
+    }
   })
 );
+
+$(".slider-block").slick({
+  dots: true,
+  arrows: false,
+});
